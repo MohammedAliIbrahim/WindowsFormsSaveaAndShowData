@@ -88,14 +88,27 @@ namespace WindowsFormsSaveaAndShowData
 
 
                 // for testing only
-              //  MessageBox.Show(selectedLanguages);
+                //  MessageBox.Show(selectedLanguages);
+
+
+                // clear inputs after each registration 
+
+                textBox1.Clear();
+               
+                radioButton1.Checked = false;
+                radioButton2.Checked = false;
+                checkBox1.Checked = false;
+                checkBox2.Checked = false;
+                checkBox3.Checked = false;
+
+              
             }
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ShowStudentsForm showStudentsForm = new ShowStudentsForm();
+            ShowStudentsForm showStudentsForm = new ShowStudentsForm(studentsList);
             showStudentsForm.Show();
         }
     }

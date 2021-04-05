@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsSaveaAndShowData
 {
-    class Student
+  public  class Student
     {
 
      public  string name { get; set; }
