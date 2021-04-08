@@ -91,17 +91,19 @@ namespace WindowsFormsSaveaAndShowData
                 //  MessageBox.Show(selectedLanguages);
 
 
-                // clear inputs after each registration 
-
+                // clear inputs after each saving
+             //   textBox1.Text = "";
                 textBox1.Clear();
-               
+
                 radioButton1.Checked = false;
                 radioButton2.Checked = false;
+
                 checkBox1.Checked = false;
                 checkBox2.Checked = false;
                 checkBox3.Checked = false;
 
-              
+
+
             }
 
         }
